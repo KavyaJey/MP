@@ -2,7 +2,7 @@
 <!--my first git comment-->
 	<head>
 		<title>MP Scheduler</title>
-		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Farsan" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Slabo+27px" rel="stylesheet">
   		<link rel="stylesheet" type="text/css" href="frontPage.css">
   		<link rel="stylesheet" type="text/css" href="common.css">
   		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
