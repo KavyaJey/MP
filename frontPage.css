@@ -1,0 +1,90 @@
+body{
+	font-family: 'Slabo 27px', serif;
+	line-height: 1.5;
+}
+
+header, main{
+	min-width:600px;
+	margin:auto;
+}
+
+#about{
+}
+
+.definition{
+	font-size:15px;
+}
+
+textarea{
+	width: 100%;
+	min-height: 200px;
+	font-size:17px;
+	font-family: 'Slabo 27px', serif;
+}
+
+#scheduleButton{
+	margin-top: 30px;
+	font-family: 'Slabo 27px', serif;
+	font-size:30px;
+	color:rgb(67,21,128);
+}
+
+#dropdown{
+	font-family: 'Slabo 27px', serif;
+	font-size: 19px;
+	line-height: 1.5;
+  font-weight: bold;
+  height: 50px;
+  width:100px;
+  margin:4px 4px 8px 0px;
+}
+
+#title{
+  font-family: 'Slabo 27px', serif;
+  text-align:center;
+}
+
+table{
+  font-family: 'Slabo 27px', serif;
+  max-width:500px;
+  width:100%;
+  margin: auto;
+}
+
+td, th{
+  border-right:0.25px solid #000000;
+  border-top:0.25px solid #000000;
+  border-bottom:0.25px solid #000000;
+  border-left:0.25px solid #000000; 
+  background-color:white;
+  color:black;
+  font-family: 'Slabo 27px', serif;
+}
+
+th{
+  background-color:lightyellow;
+  color:black;
+  font-family: 'Roboto Slab', serif;
+  font-size:25px;
+  padding:4px;
+}
+
+td{
+  padding:5px;
+}
+
+#submit{
+  font-family: 'Slabo 27px', serif;
+  font-size: 25px;
+  color: rgb(42, 11, 129);
+  padding:4px 10px 4px 10px;
+  text-align:center;
+  border-radius:5px;
+}
+
+#submit:hover{
+  color: black;
+  background-color: rgb(151, 129, 213);
+  text-align:center;
+  border-radius:5px;
+}

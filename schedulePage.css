@@ -1,0 +1,105 @@
+.breakUp{
+  word-break: break-all;
+}
+
+#title{
+  font-family: 'Roboto Slab', serif;
+  text-align:center;
+}
+
+p{
+  font-family: 'Slabo 27px', serif;
+  text-align:center;
+}
+
+table{
+  min-width: 620px;
+  width: 90%;
+}
+
+td{
+  background-color:white;
+  color:black;
+  font-family: 'Slabo 27px', serif;
+  padding:5px;
+}
+
+th{
+  background-color:lightyellow;
+  color:black;
+  font-family: 'Roboto Slab', serif;
+  font-size:25px;
+  padding:4px;
+}
+
+
+.buttons{
+  background-color:white;
+  color:rgb(67,21,128);
+  border-radius:5px;
+  border:solid;
+  border-width:1px;
+  border-color:rgb(67,21,128);
+  text-align:center;
+  height:30px;
+  font-family: 'Slabo 27px', serif;
+  font-size:25px;
+  margin-top: 15px;
+}
+
+.buttons:hover{
+  background-color:rgb(200, 163, 247);
+  color:black;
+  border-radius:5px;
+  border:solid;
+  border-width:1px;
+  border-color:rgb(67,21,128);
+  text-align:center;
+  height:30px;
+  font-family: 'Slabo 27px', serif;
+  font-size:25px;
+  margin-top: 15px;
+}
+
+#buttonContainer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 600px;
+  /*width:370px;
+  margin:auto;*/
+}
+
+#studentCardsButton{
+  margin-right: 5px;
+}
+
+#stationCardsButton{
+  margin-left: 5px;
+}
+
+#print-button{
+  display: none;
+  text-align:center;
+}
+
+#printContainer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 600px;
+}
+
+table.sortable thead {
+    background-color:lightyellow;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+th.hover{
+    background-color: yellow
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}

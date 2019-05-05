@@ -1,0 +1,1 @@
+<a href="index.php" id="logo">MP Scheduler <sup>(Beta)</sup></a>

@@ -1,0 +1,54 @@
+body{
+	word-break: break-all;
+}
+.divs{
+	border:3px solid black;
+	margin-bottom: 15px;
+	padding: 7px 7px 7px 7px;
+	width: 650px;
+}
+
+.monitor{
+	text-align: right;
+}
+
+#lessSize{
+	font-size: 20px;
+	text-align: center;
+	float: right;
+	padding-right: 10px;
+}
+
+h1{
+	padding-left: 10px;
+}
+
+table.sortable thead {
+    background-color:lightyellow;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+th.hover{
+    background-color: yellow
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.datatables_length, .dataTable_length{
+	display: none;
+}
+
+.datatables_filter, .dataTables_filter{
+	display:none;
+}
+
+.datatables_info, .dataTables_info{
+	display:none;
+}
+
+.datatables_paginate, .dataTables_paginate{
+	display:none;
+}

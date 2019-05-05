@@ -1,0 +1,30 @@
+
+table {
+  padding: 10px;
+}
+
+.row{
+  margin-bottom:40px;
+  margin-top:20px;
+}
+
+footer{
+  max-width:600px;
+  margin:auto;
+}
+
+#logo{
+  position: relative;
+  color:rgb(67,21,128);
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+a:active{
+  color:black;
+  text-decoration:none;
+}
+
+a:link, a:visited, a:hover{
+  text-decoration: none;
+}
