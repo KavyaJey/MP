@@ -18,7 +18,7 @@
 			<h2 id="3Steps">Add Students > Add Monitor > Create Schedule</h2>
 		</header>
 		<main>
-      <form action="schedulePage.php" method="post" id="form">
+      <form action="schedulePageNew.php" method="post" id="form">
 			<h3>Add Students: <span class="definition">List the students</span><h5>Please put commas between the names.</h5></h3>
       <textarea id="studentInputs" name="students"></textarea>
 			<h3>Add Monitors: <span class="definition">List the monitors</span><h5>Please put commas between the names.</h5></h3>
@@ -34,7 +34,8 @@
       <input type="submit" id="submit">
     </form>
       
-	    </main>
+	<!--comment test-->
+	</main>
 	</body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
