@@ -65,13 +65,11 @@
     console.log(studentNames1);
     var monitor = ("<?php echo $_SESSION['monitors'] ?>");
     var monitorNames = monitor.split(",");
+    var NumOfMonitorsNeeded = studentNames1.length/2;
 
-    for (var i = counter; i > 0; i++) {
-      if (studentNames1.length / 2 === monitorNames.length) {
-        break;
-      } else {
-        monitorNames.push("Extra Monitor "+i);
-      }
+    for (var MonitorNum = monitorNames.length; MonitorNum < NumOfMonitorsNeeded; MonitorNum++) {
+      monitorNames.push('Extra Monitor '+MonitorNum);
+      console.log(monitorNames);
     }
 
     console.log(monitor);

@@ -15,29 +15,25 @@ $("#form").submit(function(event){
   cookie2 = monitorNames;
   cookie3 = getGames;
   console.log(document.cookie);
+  console.log(monitorNames);
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  /*if(monitorNames.length < studentNames.length/2) {
-    alert("Please include atleast monitors as students/2");
+  if (studentNames.length === 0){
+    alert("Please input atleast 1 student.");
     return false;
-  };*/
-  /*if (monitorNames.length > studentNames.length/2) {
-    alert("Too many monitors");
-    return false;
-  };*/
-  //event.preventDefault();
+  } 
+
   for (var i = 0; i < studentNames.length; i++) {
-    if (studentNames[i].length < 4){
-      alert("Every name should include a first and last name");
+    if (studentNames[i].length < 4) {
+      alert("Every name should include a first and last name.");
       return false;
     };
   };
-  /*var studentLength = studentNames.length;
-  if (studentLength%2 !== 0){
-    studentLength++;
-    console.log(studentLength);
-  };
-  if (monitorNames.length < Math.round(studentNames.length/2)) {
-    alert("Please add more monitors");
-    return false;
-  };*/
+
+  for (var i = 0; i < monitorNames.length; i++) {
+    if (monitorNames.length === 0) {
+      alert("Please input atleast 1 monitor.");
+      return false;
+    };
+  }
+  
 });
