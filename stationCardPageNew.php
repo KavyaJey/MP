@@ -108,9 +108,9 @@
     var stationNum = s+1;
 
     table=[];
-    table+='<h3>';
+    table+='<h2>';
     table+='Station '+stationNum;
-    table+='</h3>';
+    table+='</h2>';
     table+='<table id="stationCards" class="sortable" border="0" cellspacing="0" cellpadding="0">';
     table+='<thead><th id="round">Round</th><th id="opponent1">Opponent 1</th><th id="opponent2">Opponent 2</th><th id="monitor">Monitor</th><th id="game">Game</th></tr></thead><tbody>';
 

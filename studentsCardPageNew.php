@@ -186,9 +186,9 @@
     console.log(studentIndexNew5);
 
     table=[];
-    table+='<h3>';
+    table+='<h2>';
     table+=studentName;
-    table+='</h3>';
+    table+='</h2>';
     table+='<table id="studentsCards" class="sortable" border="0" cellspacing="0" cellpadding="0">';
     table+='<thead><tr><th id="round">Round</th><th id="station">Station</th><th id="opponent">Opponent</th><th id="game">Game</th></tr></thead><tbody>';
 

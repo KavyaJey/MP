@@ -15,7 +15,7 @@
 		<header>
 			<h1 id="title">MP Scheduler</h1>
 			<p id="about">This is a MP mock scheduler. This makes it much easier to make schedules when you play Math Pentathlon. You can make a schedule in 3 easy steps: </p>
-			<h2 id="steps">Add Students > Add Monitor > Create Schedule</h2>
+			<h2 id="steps">Add Students > Add Monitors > Select Division > Create Schedule</h2>
 		</header>
 		<main>
       <form action="schedulePageNew.php" method="post" id="form">
@@ -33,6 +33,27 @@
       <br>
       <input type="submit" id="submit">
     </form>
+
+    <h3>
+    	About This Site
+    </h3>
+    <p>
+    	I created this website, because I wanted to fix a problem. Scheduling <a href="https://www.mathpentath.org" target="_blank">Math Pentathlon</a> mock tournaments were extremely time-consuming and took a lot of brain-power. I wanted to make it easier. Hopefully this is useful to some of you!
+
+		This website uses round-robin scheduling. A word of thanks goes out to <a href="https://nrich.maths.org/1443" target="_blank"> NRICH's excellent website</a> that helped me understand the algorithms required for this.
+    </p>
+
+    <h3>
+    	Instructions
+    </h3>
+    <p>
+    	Generating a mock tournament schedule using this schedule maker is very simple. Just follow the steps below: </br>
+
+    	1. Enter the names of the players who will be playing in the tournament. </br>
+    	2. Enter the names of the monitor who have volunteered to be in the tournament. </br>
+    	3. Choose the division that the students are playing in. </br>
+    	4. Click the 'Submit' button, and voilà! Your tournament schedule is ready.
+    </p>
       
 	<!--comment test-->
 	</main>
