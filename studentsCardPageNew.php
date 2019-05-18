@@ -20,6 +20,7 @@
   ?>
 	<main id="main">
     <button id="stationCardButton" class="buttons"><a href="stationCardPageNew.php">Create Station Cards</a></button>
+    <button id="printButton" class="buttons"><a href="javascript:window.print()">Print</a></button>
     <div id="cardHolder"></div>
     <div id="tableHolder"></div>
   </main>

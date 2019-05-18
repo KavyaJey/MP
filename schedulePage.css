@@ -2,7 +2,7 @@
   word-break: break-all;
 }
 
-#title{
+#title, main{
   font-family: 'Roboto Slab', serif;
   text-align:center;
 }
@@ -32,6 +32,18 @@ th{
   padding:4px;
 }
 
+#studentCardsButton{
+  margin-right: 5px;
+}
+
+#stationCardsButton{
+  margin-left: 5px;
+}
+
+#print-button{
+  display: none;
+  text-align:center;
+}
 
 .buttons{
   background-color:white;
@@ -59,35 +71,6 @@ th{
   font-family: 'Slabo 27px', serif;
   font-size:25px;
   margin-top: 15px;
-}
-
-#buttonContainer{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  width: 600px;
-  /*width:370px;
-  margin:auto;*/
-}
-
-#studentCardsButton{
-  margin-right: 5px;
-}
-
-#stationCardsButton{
-  margin-left: 5px;
-}
-
-#print-button{
-  display: none;
-  text-align:center;
-}
-
-#printContainer{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  width: 600px;
 }
 
 table.sortable thead {

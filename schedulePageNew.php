@@ -17,14 +17,11 @@
       <p>Please click on the column header for the rounds</p>
     </header>
     <main id="main">
-      <!--<div id="printContainer">
-        <button id="printButton" class="buttons"><a href="javascript:window.print()">Print This Page</a></button>
-        <br>
-      </div>-->
       <div id="buttonContainer">
-          <button id="studentCardButton" class="buttons"><a href="studentsCardPageNew.php">Create Student Cards</a></button>
-          <button id="stationCardButton" class="buttons"><a href="stationCardPageNew.php">Create Station Cards</a></button>
-        </div>
+        <button id="studentCardButton" class="buttons"><a href="studentsCardPageNew.php">Create Student Cards</a></button>
+        <button id="stationCardButton" class="buttons"><a href="stationCardPageNew.php">Create Station Cards</a></button>
+        <button id="printButton" class="buttons"><a href="javascript:window.print()">Print</a></button>
+      </div>
       </main>
         <?php
           session_start();

@@ -18,6 +18,7 @@
   </header>
 	<main id="main">
     <button id="studentCardButton" class="buttons"><a href="studentsCardPageNew.php">Create Student Cards</a></button>
+    <button id="printButton" class="buttons"><a href="javascript:window.print()">Print</a></button>
     <div id="tableHolder"></div>
   </main>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

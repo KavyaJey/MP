@@ -15,7 +15,7 @@
 		<header>
 			<h1 id="title">MP Scheduler</h1>
 			<p id="about">This is a MP mock scheduler. This makes it much easier to make schedules when you play Math Pentathlon. You can make a schedule in 3 easy steps: </p>
-			<h2 id="3Steps">Add Students > Add Monitor > Create Schedule</h2>
+			<h2 id="steps">Add Students > Add Monitor > Create Schedule</h2>
 		</header>
 		<main>
       <form action="schedulePageNew.php" method="post" id="form">
@@ -40,51 +40,5 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  	var games = {
-	  div1:["Calla", "Shape-up", "Kings & Quads", "Hex-A-Gone", "Star Track"],
-	  div2:["Fiar", "Sum Dominoes & Dice", "Quatro Sinko", "Par 55", "Ramrod"],
-	  div3:["Fab-A-Diffy", "Stars & Bars", "Contig 60", "Queens & Guards", "Juggle"],
-	  div4:["Fraction Pinball", "Pent Em' In", "Prime Gold", "Remainder Islands", "Frac Fact"]
-	};
-
-	$("#form").submit(function(event){
-	  var studentNames = $("#studentInputs").val().split(",");
-	  var monitorNames = $("#monitorInputs").val().split(",");
-	  var division = $("#dropdown").val();
-	  var getGames = games[division];
-
-	  cookie1 = studentNames;
-	  cookie2 = monitorNames;
-	  cookie3 = getGames;
-	  console.log(document.cookie);
-	  console.log(monitorNames);
-	  //validations
-	  if (studentNames.length === 0){
-	    alert("Please input atleast 1 student.");
-	    return false;
-	  } 
-
-	  if (monitorNames.length === 0){
-	    alert("Please input atleast 1 monitor.");
-	    return false;
-	  } 
-
-	  for (var i = 0; i < studentNames.length; i++) {
-	    if (studentNames[i].length < 4) {
-	      alert("Every name should include a first and last name.");
-	      return false;
-	    };
-	  };
-
-	  for (var i = 0; i < monitorNames.length; i++) {
-	    if (monitorNames[i].length < 4) {
-	      alert("Please input atleast 1 monitor.");
-	      return false;
-	    };
-	  };
-	  
-	});
-
-  </script>
+  <script src="validations.js"></script>
 </html>

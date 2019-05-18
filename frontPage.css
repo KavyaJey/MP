@@ -39,14 +39,14 @@ textarea{
   margin:4px 4px 8px 0px;
 }
 
-#title{
+#title, #about, #steps{
   font-family: 'Slabo 27px', serif;
   text-align:center;
 }
 
 table{
   font-family: 'Slabo 27px', serif;
-  max-width:500px;
+  max-width:1000px;
   width:100%;
   margin: auto;
 }

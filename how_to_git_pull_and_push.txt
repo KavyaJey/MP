@@ -1,0 +1,8 @@
+COMMAND PROMPT:
+git add *
+git commit -m 'message'
+git push origin master
+
+
+cd /var/www/html
+git pull
