@@ -59,7 +59,7 @@
 	  cookie3 = getGames;
 	  console.log(document.cookie);
 	  console.log(monitorNames);
-	  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	  //validations
 	  if (studentNames.length === 0){
 	    alert("Please input atleast 1 student.");
 	    return false;
