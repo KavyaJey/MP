@@ -18,17 +18,17 @@
       <p>
         This is a MP mock scheduler. Generating a mock tournament schedule using this schedule maker is very simple. Just follow the steps below: </br>
 
-        1. Enter the first & last names of the players who will be playing in the tournament and make sure to include a comma after the child's last name. 
-        2. Enter the first & last names of the monitor who have volunteered to be in the mock tournament and make sure to include a comma after the monitor's last name. 
+        1. Enter the first & last names of the players who will be playing in the tournament and make sure to include a comma after each child's last name. 
+        2. Enter the first & last names of the monitor who have volunteered to be in the mock tournament and make sure to include a comma after each monitor's last name. 
         3. Choose the division that the students are playing in. 
         4. Click the 'Submit' button, and voilà! Your tournament schedule is ready.
       </p>
 		</header>
 		<main>
       <form action="schedulePageNew.php" method="post" id="form">
-			<h3>Add Students: <span class="definition">Enter the first & last names of the students</span><h5>Make sure to include a comma after the child's last name.</h5></h3>
+			<h3>Add Students: <span class="definition">Enter the first & last names of the students</span><h5>Make sure to include a comma after each child's last name.</h5></h3>
       <textarea id="studentInputs" name="students"></textarea>
-			<h3>Add Monitors: <span class="definition">Enter the first & last names of the monitors</span><h5>Make sure to include a comma after the child's last name</h5></h3>
+			<h3>Add Monitors: <span class="definition">Enter the first & last names of the monitors</span><h5>Make sure to include a comma after each monitor's last name</h5></h3>
 			<textarea id="monitorInputs" name="monitors"></textarea>
 			<h3>Division: <span class="definition">Select the division the students & monitors are in</span></h3>
       <select id="dropdown" name="division">
