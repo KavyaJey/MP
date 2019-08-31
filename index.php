@@ -18,9 +18,9 @@
       <p>
         This is a MP mock scheduler. Generating a mock tournament schedule using this schedule maker is very simple. Just follow the steps below: </br>
 
-        1. Enter the first & last names of the players who will be playing in the tournament and make sure to include a comma after each child's last name. 
-        2. Enter the first & last names of the monitor who have volunteered to be in the mock tournament and make sure to include a comma after each monitor's last name. 
-        3. Choose the division that the students are playing in. 
+        1. Enter the first & last names of the players who will be playing in the tournament and make sure to include a comma after each child's last name. </br>
+        2. Enter the first & last names of the monitor who have volunteered to be in the mock tournament and make sure to include a comma after each monitor's last name. </br> 
+        3. Choose the division that the students are playing in. </br> 
         4. Click the 'Submit' button, and voilà! Your tournament schedule is ready.
       </p>
 		</header>
