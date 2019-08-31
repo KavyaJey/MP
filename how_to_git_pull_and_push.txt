@@ -1,8 +1,8 @@
-COMMAND PROMPT:
+IN COMMAND PROMPT:
 git add *
 git commit -m 'message'
 git push origin master
 
-
+IN PUTTY:
 cd /var/www/html
 git pull
