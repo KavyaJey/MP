@@ -28,14 +28,14 @@ return false;
 } 
 
 for (var i = 0; i < studentNames.length; i++) {
-if (studentNames[i].length < 4) {
+if (studentNames[i].length != "" && studentNames[i].length < 4) {
 alert("Every student's name should include a first and last name.");
 return false;
 };
 };
 
 for (var i = 0; i < monitorNames.length; i++) {
-if (monitorNames[i].length < 4) {
+if (monitorNames[i].length != "" && monitorNames[i].length < 4) {
 alert("Every monitor's name should include a first and last name.");
 return false;
 };
