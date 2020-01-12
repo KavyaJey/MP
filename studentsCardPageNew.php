@@ -65,7 +65,7 @@
       if (monitorNames[i] == "") {
         monitorNames = monitorNames.filter(e => e !== "");
       }
-    }
+  }
 
   for (var i = counter; i > 0; i++) {
     if (studentNames1.length / 2 === monitorNames.length) {

@@ -11,6 +11,18 @@ var monitorNames = $("#monitorInputs").val().split(",");
 var division = $("#dropdown").val();
 var getGames = games[division];
 
+for (var i = 0; i < studentNames.length; i++) {
+      if (studentNames[i] == "") {
+      studentNames = studentNames.filter(e => e !== "");
+    }
+}
+
+for (var i = 0; i < monitorNames.length; i++) {
+      if (monitorNames[i] == "") {
+        monitorNames = monitorNames.filter(e => e !== "");
+      }
+}
+
 cookie1 = studentNames;
 cookie2 = monitorNames;
 cookie3 = getGames;
