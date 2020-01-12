@@ -15,6 +15,7 @@ cookie1 = studentNames;
 cookie2 = monitorNames;
 cookie3 = getGames;
 console.log(document.cookie);
+console.log(studentNames);
 console.log(monitorNames);
 //validations
 if (studentNames.length === 0){
