@@ -42,14 +42,14 @@ return false;
 };
 
 for (var i = 0; i < studentNames.length; i++) {
-if (studentNames[i].length = 0) {
+if (studentNames[i] = "") {
 alert("Please remove a comma after the last student's name.");
 return false;
 };
 };
 
 for (var i = 0; i < monitorNames.length; i++) {
-if (monitorNames[i].length = 0) {
+if (monitorNames[i] = "") {
 alert("Please remove a comma after the last monitor's name.");
 return false;
 };
