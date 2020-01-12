@@ -16,7 +16,7 @@
 			<h1 id="title">MP Scheduler</h1>
       <h3>Instructions</h3>
       <p>
-        This is a MP Pre-tournament Practice Scheduler. Generating a mock tournament schedule using this schedule maker is very simple. Just follow the steps below: </br>
+        This is a MP Pre-tournament Practice Scheduler. Generating a practice tournament schedule using this schedule maker is very simple. Just follow the steps below: </br>
 
         1. Enter the first & last names of the players who will be playing in the tournament and make sure to include a comma in between each child's name. </br>
         2. Enter the first & last names of the monitor who have volunteered to be in the mock tournament and make sure to include a comma in between each monitor's name. </br> 
