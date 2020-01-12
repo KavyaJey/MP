@@ -14,7 +14,7 @@
 		?>
 		<header>
 			<h1 id="title">MP Scheduler</h1>
-			<p id="about">This is a MP mock scheduler. This makes it much easier to make schedules when you play Math Pentathlon. You can make a schedule in 3 easy steps: </p>
+			<p id="about">This is a MP pre-tournament practice scheduler. This makes it much easier to make schedules when you are conducting practice Math Pentathlon tournaments. You can make a schedule in 3 easy steps: </p>
 			<h2 id="3Steps">Add Students > Add Monitor > Create Schedule</h2>
 		</header>
 		<main>

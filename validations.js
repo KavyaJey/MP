@@ -18,25 +18,39 @@ console.log(document.cookie);
 console.log(monitorNames);
 //validations
 if (studentNames.length === 0){
-alert("Please input atleast 1 student.");
+alert("Please input at least 1 student.");
 return false;
 } 
 
 if (monitorNames.length === 0){
-alert("Please input atleast 1 monitor.");
+alert("Please input at least 1 monitor.");
 return false;
 } 
 
 for (var i = 0; i < studentNames.length; i++) {
 if (studentNames[i].length < 4) {
-alert("Every name should include a first and last name.");
+alert("Every student's name should include a first and last name.");
 return false;
 };
 };
 
 for (var i = 0; i < monitorNames.length; i++) {
 if (monitorNames[i].length < 4) {
-alert("Please input atleast 1 monitor.");
+alert("Every monitor's name should include a first and last name.");
+return false;
+};
+};
+
+for (var i = 0; i < studentNames.length; i++) {
+if (studentNames[i].length = 0) {
+alert("Please remove a comma after the last student's name.");
+return false;
+};
+};
+
+for (var i = 0; i < monitorNames.length; i++) {
+if (monitorNames[i].length = 0) {
+alert("Please remove a comma after the last monitor's name.");
 return false;
 };
 };
