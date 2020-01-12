@@ -50,6 +50,12 @@
     var studentNames1 = student.split(",");
     var counter = 1;
 
+    for (var i = 0; i < studentNames1.length; i++) {
+      if (studentNames1[i] == "") {
+        studentNames1 = studentNames1.filter(e => e !== "");
+      }
+    }
+
     for (var i = counter; i > 0; i++) {
       if (studentNames1.length % 2 === 0) {
         break;
@@ -60,9 +66,16 @@
 
     console.log(student);
     console.log(studentNames1);
+
     var monitor = ("<?php echo $_SESSION['monitors'] ?>");
     var monitorNames = monitor.split(",");
     var NumOfMonitorsNeeded = studentNames1.length/2;
+
+     for (var i = 0; i < monitorNames.length; i++) {
+      if (monitorNames[i] == "") {
+        monitorNames = monitorNames.filter(e => e !== "");
+      }
+    }
 
     for (var MonitorNum = monitorNames.length; MonitorNum < NumOfMonitorsNeeded; MonitorNum++) {
       monitorNames.push('Extra Monitor '+MonitorNum);

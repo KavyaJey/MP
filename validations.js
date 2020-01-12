@@ -42,6 +42,10 @@ return false;
 };
 };
 
+/*
+
+//trailing comma
+
 for (var i = 0; i < studentNames.length; i++) {
 if (studentNames[i] == "") {
 alert("Please remove a comma after the last student's name.");
@@ -55,5 +59,6 @@ alert("Please remove a comma after the last monitor's name.");
 return false;
 };
 };
+*/
 
 });
