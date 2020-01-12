@@ -56,14 +56,19 @@
   console.log(studentNames1);
 
   var monitor = ("<?php echo $_SESSION['monitors'] ?>");
-  var monitorNames = monitor.split(",");
+  var monitorNamesStart = monitor.split(",");
+  var monitorNames = [];
+
+  for (var i = 0; i < studentNames1.length/2; i++) {
+    monitorNames.push(monitorNamesStart[i])
+  }
 
    for (var i = 0; i < monitorNames.length; i++) {
       if (monitorNames[i] == "") {
         monitorNames = monitorNames.filter(e => e !== "");
       }
     }
-    
+
   for (var i = counter; i > 0; i++) {
     if (studentNames1.length / 2 === monitorNames.length) {
       break;
