@@ -45,9 +45,9 @@
     	About This Site
     </h3>
     <p>
-    	I created this website, because I wanted to fix a problem. Scheduling <a href="https://www.mathpentath.org" target="_blank">Math Pentathlon</a> mock tournaments were extremely time-consuming and took a lot of brain-power. I wanted to make it easier. Hopefully this is useful to some of you!
+    	The MP Practice Tournament Scheduler was created by Kavya Jey, a former Pentathlete. Her father was the Math Pentathlon Lead of her school and he was responsible for conducting practice tournaments for the students who were playing. She noticed the amount of hard work and time that goes into scheduling those practice tournaments and thought to make it easier for future Math Pentathlon Leads. After 2 1/2 years of writing code & testing the Scheduler, she achieved her goal and asked that the Pentathlon Institute share this with coaches who run practice tournaments. The MP Practice Tournament Scheduler will save a lot of time and help organize your practice tournament to run smoothly & easily. Hope this is helpful for you!
 
-		This website uses round-robin scheduling. A word of thanks goes out to <a href="https://nrich.maths.org/1443" target="_blank"> NRICH's excellent website</a> that helped me understand the algorithms required for this.
+		  This website uses round-robin scheduling. A word of thanks goes out to <a href="https://nrich.maths.org/1443" target="_blank"> NRICH's excellent website</a> that helped me understand the algorithms required for this.
     </p>
       
 	<!--comment test-->
